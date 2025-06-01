@@ -6,5 +6,5 @@ overLayBtn.addEventListener("click", function () {
   overLayDiv.classList.add("hidden-overlay-div");
 });
 headerViedo.addEventListener("click", function () {
-  overLayDiv.classList.toggle("show-overlay-div");
+  overLayDiv.classList.remove("hidden-overlay-div");
 });
