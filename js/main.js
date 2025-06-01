@@ -1,10 +1,10 @@
 const overLayBtn = document.querySelector("#overlay-btn");
 const overLayDiv = document.querySelector(".overlay-div");
-const modalSection = document.querySelector(".modal-section");
+const headerViedo = document.querySelector("#header-video");
 
 overLayBtn.addEventListener("click", function () {
   overLayDiv.classList.add("hidden-overlay-div");
 });
-modalSection.addEventListener("click", function () {
+headerViedo.addEventListener("click", function () {
   overLayDiv.classList.toggle("show-overlay-div");
 });
